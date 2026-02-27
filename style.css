@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.haut{
+    height: 600px;
+    background-image: url(images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.by{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list{
+    margin-top: 120px;
+    position: relative;
+    left: 970px;
+}
+.list h3{
+    position: relative;
+    left: 85px;
+    color: white;
+    font-size: 25px;
+}
+.list h1{
+    position: relative;
+    left: 135px;
+    color: white;
+    padding-top: 10px;
+    font-size: 45px;
+    
+}
+.list p{
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    right: 28px;
+}
+button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    position: relative;
+    left: 245px;
+}
+.bas{
+    height: 400px;
+    width: 99%;
+    margin: 70px 230px;
+}
+.tout{
+    display: flex;
+    gap: 40px;
+}
+.tout h3{
+    padding: 10px;
+    text-align: center;
+}
+.tout p{
+   padding: 10px;
+   text-align: center;
+}
+.tout a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    position: relative;
+    left: 85px;
+}
+.tout .deux{
+    margin-top: 20px;
+}
+.tout .trois{
+    margin-top: 40px
+}
+.tout .quatre{
+    margin-top: 25px;
+}
+.tout .un img{
+    position: relative;
+    left: 65px;
+    top: 10px;
+}
+.tout .deux img{
+    position: relative;
+    left: 70px;
+}
+.tout .trois img{
+    position: relative;
+    left: 100px;
+}
+.tout .quatre img{
+    position: relative;
+    left: 65px;
+}
